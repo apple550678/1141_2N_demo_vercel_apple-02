@@ -1,4 +1,4 @@
-﻿import { FaGlobe } from 'react-icons/fa6'
+import { FaGlobe } from 'react-icons/fa6'
 import { FaMugSaucer } from 'react-icons/fa6'
 import Wrapper from '../assets/wrappers/Blog2_02'
 
@@ -7,7 +7,7 @@ const BlogStaticPage_02 = () => {
     <Wrapper>
       <section className='blogs'>
         <div className='section-title'>
-          <h2>Static Blogs -- 李國竣, 213410102</h2>
+          <h2>Static Blogs -- 李國蘋, 213410102</h2>
         </div>
         <div className='blogs-center'>
           <article className='blog'>
@@ -77,5 +77,3 @@ const BlogStaticPage_02 = () => {
 }
 
 export default BlogStaticPage_02
-
-
