@@ -1,4 +1,4 @@
-import { FaGlobe } from 'react-icons/fa6'
+﻿import { FaGlobe } from 'react-icons/fa6'
 import { FaMugSaucer } from 'react-icons/fa6'
 import Wrapper from '../assets/wrappers/Blog2_02'
 
@@ -7,12 +7,12 @@ const BlogStaticPage_02 = () => {
     <Wrapper>
       <section className='blogs'>
         <div className='section-title'>
-          <h2>static blogs -- 李國蘋, 213410102</h2>
+          <h2>Static Blogs -- 李國竣, 213410102</h2>
         </div>
         <div className='blogs-center'>
           <article className='blog'>
             <img
-              src='/public/themes/theme_blogs/images/photo-1.jpg'
+              src='/themes/theme_blogs/images/photo-1.jpg'
               alt='Coffee photo'
               className='img blog-img'
             />
@@ -27,7 +27,7 @@ const BlogStaticPage_02 = () => {
           </article>
           <article className='blog'>
             <img
-              src='/public/themes/theme_blogs/images/photo-2.jpg'
+              src='/themes/theme_blogs/images/photo-2.jpg'
               alt='Coffee photo'
               className='img blog-img'
             />
@@ -42,7 +42,7 @@ const BlogStaticPage_02 = () => {
           </article>
           <article className='blog'>
             <img
-              src='/public/themes/theme_blogs/images/photo-3.jpg'
+              src='/themes/theme_blogs/images/photo-3.jpg'
               alt='Coffee photo'
               className='img blog-img'
             />
@@ -57,7 +57,7 @@ const BlogStaticPage_02 = () => {
           </article>
           <article className='blog'>
             <img
-              src='/public/themes/theme_blogs/images/photo-4.jpg'
+              src='/themes/theme_blogs/images/photo-4.jpg'
               alt='Coffee photo'
               className='img blog-img'
             />
@@ -77,3 +77,5 @@ const BlogStaticPage_02 = () => {
 }
 
 export default BlogStaticPage_02
+
+
