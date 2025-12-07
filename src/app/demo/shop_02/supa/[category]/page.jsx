@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from 'react'
 import { useParams } from 'next/navigation'
-import Wrapper from '../../_wrapper/Shop_02'
-import Product_02 from '../../_components/Product_02'
+import Wrapper from '@/assets/wrappers/midterm/Shop_02'
+import Product_02 from '@/components/midterm/Product_02'
 
 const FetchShopByCategory_02 = () => {
   const [shop_02, setShop_02] = useState([])
